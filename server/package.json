@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15",
+    "snowpack": "^3.8.8",
+    "socket.io": "^4.4.1",
+    "uuid": "^8.3.2"
+  },
+  "name": "multisweeper",
+  "version": "1.0.0",
+  "description": "Two-player online version of Minesweeper",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "nodemon": "nodemon server.js"
+  },
+  "author": "Jakub Baluch",
+  "license": "ISC"
+}

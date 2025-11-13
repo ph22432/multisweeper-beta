@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Polysweeper</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="nav">
+            <a href="" class="active">HOME</a>
+            <a href="leaderboards.html">LEADERBOARDS</a>
+            <a href="login.html">LOG IN</a>
+            <a href="about.html">ABOUT</a>
+            <a href="account.html">ACCOUNT</a>
+        </div>
+    </header>
+
+    <div>
+        <div>
+            <a href="index.html">
+                <img src="logo.svg" alt="Polysweeper" id="logo">
+            </a>
+        </div>
+        <div>
+            <canvas id="gameCanvas" width="900" height="450" style="border:4px;" oncontextmenu="return false;"></canvas>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>Jakub Baluch © 2022</p>
+    </footer>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="board.js"></script>
+    <script src="display.js"></script>
+    <script src=game.js onload="Main()"></script>
+</body>
+
+</html>

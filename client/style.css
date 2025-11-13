@@ -1,0 +1,102 @@
+html{
+    overflow-y: scroll;
+}
+
+div{
+    display: grid; 
+    text-align: center;
+    justify-content: center;
+}
+
+.content{
+    padding-top: 0px;
+    display:grid;
+}
+
+.form{
+    width:17ex0px;
+}
+
+h1{
+    display: inline;
+    font-family: "Arial";
+    font-size: 60px;
+    text-align: center;
+    padding: 0px;
+    color:white;
+}
+
+h3{
+    color:white;
+}
+
+header{
+    display: inline;
+    flex-direction: column;
+}
+
+p{
+    color:white;
+}
+
+body{
+    background-image: url(bg_dark.png);
+    margin: 0;
+    display: grid;
+    font-family: Helvetica;
+    min-height: 100vh;
+}
+
+#gameCanvas{
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+}
+
+#gameCanvas.play{
+
+    opacity: 1;
+}
+
+#gameCanvas.minsize{
+    min-height: 360px;
+    min-width: 600px;
+}
+
+footer{
+    width: 100%;
+    margin-top: auto;
+    text-align: center;
+}
+
+#logo{
+    padding: 9px;
+    font-family: "Arial";
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#nav{
+    background-color: #111111;
+    width: 100%;
+    display: flex;
+}
+
+#nav a{
+    padding: 15px;
+    float: left;
+    width: 20%;
+    color: #bfafff;
+    text-decoration: none;
+    font-family: Helvetica;
+}
+
+#nav a.active{
+    font-weight: 900;
+    color: white;
+}
+
+#nav a:hover{
+    background-color: black;
+}
